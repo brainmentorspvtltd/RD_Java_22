@@ -1,0 +1,43 @@
+Java Programming
+- Object Oriented
+- Platform Independent - WORA Write Once Run Anywhere
+- Compiled as well as Interpreted
+- Open Source
+- General Purpose
+--------------------------------------------
+First Program in Java
+- every java program starts with a class
+- class name should start with capital letter
+- class name cannot be started with a number or any other special character except underscore and dollar
+- File name should also be same as class name
+
+Java comes with
+- JDK - Java Development Kit
+  - compiler of java
+- JRE - Java Runtime Environment
+  - JVM - Java Virtual Machine - executes the code
+
+
+Executing first java program
+- we need to compile
+  - javac FileName.java
+  - now jdk will compile the code
+- now to execute the code
+  - java ClassName
+  - now JVM will execute the code
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
