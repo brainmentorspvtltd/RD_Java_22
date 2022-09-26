@@ -1,0 +1,45 @@
+Java Programming
+- high-level
+- object oriented
+- platform independent
+- statically typed
+- compiled as well as interpreted
+- open source
+- general purpose
+-------------------------------------------
+First Program of Java
+- Every java program starts with a class
+- Class name should start with capital letter
+- Class name cannot be started with number or any other special character except underscore or dollar
+- Class name should be same as file name
+-------------------------------------------
+Running first program
+- First we need to compile
+  - javac FileName.java
+
+- Now we need to execute
+  - java ClassName
+
+
+System.in
+System.out
+System.err
+
+what is out ?
+- out is an instance of PrintStream class
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
