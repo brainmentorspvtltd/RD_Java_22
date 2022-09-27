@@ -26,6 +26,7 @@ Executing first java program
   - java ClassName
   - now JVM will execute the code
 
+Data Types
 
 
 
