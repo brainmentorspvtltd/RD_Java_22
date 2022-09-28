@@ -28,6 +28,13 @@ System.err
 what is out ?
 - out is an instance of PrintStream class
 
+Data Types
+- Primitive
+
+
+
+- Non-Primitive
+
 
 
 
