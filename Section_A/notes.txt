@@ -1,0 +1,24 @@
+What is Collection in Java?
+Ans: Collection is a Predefine Data Structure in Java
+
+interface A{
+    int add();
+}
+
+Index wise - array (index wise + static )
+
+Collection
+single resource + Multi User + Write 
+Interface (Plan) What to Do
+
+Code in Execution is called Thread.
+
+
+Class - How to do
+a) List - Index wise + Dynamic
+ArrayList - Modern (JAVA 1.4) (Not SYNCHRONIZED)
+Vector - Legacy (From Start) (SYNCHRONIZED)
+LinkedList - Doubly LL
+b) Set - Unique Element
+c) Map - Key and Value Pair
+d) Queue
