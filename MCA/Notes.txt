@@ -1,0 +1,5 @@
+Prime Number
+For Loop
+Enhanced For Loop
+Labeled For Loop
+Switch Case
