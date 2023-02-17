@@ -1,0 +1,46 @@
+Data Structures
+
+- Time and Space
+
+Asymptotic Analysis
+
+1. Ignore Lower Order Terms
+2. Ignore Leading Term Constant
+
+Asymptotic Notation
+- Best Case					- Constant time										Omega
+- Average Case			- Linear (Based on a condition)			Theta
+- Worst Case				- Linear														Big O
+
+
+Arrays
+- collection of similar data types
+- contiguous memory allocation
+- random access
+- Cache Friendly
+
+Syntax of Array
+int arr[] = {1,2,3,4,5};
+int []arr = {1,2,3,4,5};
+int[] arr = {1,2,3,4,5};
+int arr[] = new int[5];
+int arr[] = new int[]{2,1,4,6,1};
+
+CRUD
+ - Create Read Update Delete
+
+1. Find max element from array
+    i/p : arr = {10,20,3,11,50}
+    o/p : 50
+
+2. Find second max element from array
+    i/p : arr = {10,20,3,11,50}
+    o/p : 20
+
+3. Span of an array (difference of max and min element)
+    i/p : arr = {10,20,3,11,50}
+    o/p : 47
+
+4. Print Bar Chart
+    i/p : arr = {2,0,1,3,5,6,7}
+    o/p : 
