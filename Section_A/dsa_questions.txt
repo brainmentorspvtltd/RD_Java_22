@@ -1,0 +1,166 @@
+Recursion
+
+- Call Stack
+- how local variables are initialized in memory
+- how return statement work
+--------------------------------------------------------------------------------
+- process calling itself is called recursion
+- when we have to break a large problem into small problem and then solve smaller instance of same problem
+--------------------------------------------------------------------------------
+
+Every recursion program contains 3 parts
+- Base Case (Termination Case)
+- Small Problem
+- Processing Logic
+
+--------------------------------------------------------------------------------
+Print:
+5
+3
+1
+2
+4
+--------------------------------------------------------------------------------
+Power Calculate
+Sum of Digit
+Count Zero in a Digit
+
+Pattern Programs
+Armstrong Number
+Find Frequency of all characters in a string
+String str = "ram sharma"
+o/p : {'r' : 2, 'a' : 3, 'm' : 2, 's' : 1, 'h' : 1}
+
+Replace all pi values with 3.14
+i/p : "1+pi*4-pi*6"
+o/p : "1+3.14*4-3.12*6"
+
+String with adjacent stars
+i/p : "xyxxyyx"
+o/p : "xyx*xy*yx"
+
+Sudoku
+NQueen
+Maze Path
+Dice
+String Permutations
+Subsequence
+
+Letter Combination of Phone Number (Amazon, Facebook, Apple, Google, Tesla, Uber)
+Well Formed Parantheses (Microsoft, Adobe, Nvidia, TCS, Apple)
+Word Search (Amazon, Twitter, Pinterest, Cisco)
+Permutations (LinkedIn, Ebay, PayPal, PayTM)
+    i/p : nums = [1,2,3]
+    o/p : [[1,2,3],[1,3,2],[2,1,3],[3,2,1],[3,1,2],[2,3,1]]
+
+first = 0
+nums = [1,2,3]
+
+i = 0   = [1,2,3]
+    first = 1
+    i = 1   = [1,2,3]
+        first = 2
+        i = 2
+        prem = [1,2,3]
+    i = 2   = swap(nums[1], nums[2])    = [1,3,2]
+        first = 2
+        i = 2
+        prem = [1,3,2]
+i = 1   = swap(nums[0], nums[1])  = [2,1,3]
+    first = 1
+    i = 1   = [2,1,3]
+        first = 2
+        i = 2
+        prem = [2,1,3]
+    i = 2   = swap(nums[1], nums[2])    = [2,3,1]
+        first = 2
+        i = 2
+        prem = [2,3,1]
+i = 2   = swap(nums[0], nums[2])  = [3,2,1]
+    first = 1
+    i = 1   = [3,2,1]
+        first = 2
+        i = 2
+        prem = [3,2,1]
+    i = 2   = swap(nums[1], nums[2])    = [3,1,2]
+        first = 2
+        i = 2
+        prem = [3,1,2]
+
+
+Rat in a Maze
+=================================================
+
+Array Questions
+
+1. Find max element in an array
+    i/p : [2,1,5,7,9,11]
+    o/p : 11
+
+2. Second Max element in an array - HW
+    i/p : [2,1,5,7,9,11]
+    o/p : 9
+
+3. Span of an array - HW
+    - find the difference b/w max and min element of an array
+
+4. Print Bar Chart
+    i/p : [2,1,3,5,0,7]
+
+5. Array is sorted or not - HW
+
+Two Pointer Approach
+6. Reverse an array
+    i/p : arr = [1,9,13,4,15,6]
+    o/p : [6,15,4,13,9,1]
+
+7. Pair Sum / Two Sum (LC : 1) - HW
+    i/p : arr = {2,1,5,6,3,7}, k = 11
+    o/p : 2,3
+    pair is 5 and 6
+
+8. Remove Duplicate From Sorted Array - HW
+https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+
+9. Find the leader element
+	i/p : arr[] = {5,3,8,9,7,4}
+	o/p : 4,7,9
+
+10. Rotate Array by One
+	i/p : arr[]  = {3,5,1,7,5,9}
+	o/p : {5,1,7,5,9,3}
+
+11. Rotate Array By K - HW
+https://leetcode.com/problems/rotate-array/
+
+12. Addition of two array
+	i/p : arr_1 = {1,2,3,4}, arr_2 = {5,6,7,8}
+	o/p : {6,9,1,2}
+
+13. Subtraction of two array
+
+14. Sort 0 and 1 - HW
+	i/p : arr = {0,1,0,0,1,1,0,0,0,1,1}
+	o/p : {0,0,0,0,0,0,1,1,1,1,1}
+
+15. DNF - Dutch National Flag / Sort Colors - HW, Leetcode - 75
+	- Sort 0, 1 and 2
+     https://leetcode.com/problems/sort-colors/description/
+	i/p : arr = {0,1,1,1,0,0,2,2,1,0,1,0,2,2}
+	o/p : {0,0,0,0,0,1,1,1,1,1,2,2,2,2}
+
+16. Running Sum of 1D Array - HW - Leetcode - 1480
+	https://leetcode.com/problems/running-sum-of-1d-array/
+
+	
+
+
+
+
+
+
+
+
+
+
+
