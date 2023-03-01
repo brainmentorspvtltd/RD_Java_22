@@ -32,8 +32,20 @@ public class BuySellStock {
 
     }
 
+    static void approach_3(int arr[]) {
+        int min = arr[0];
+        int finalProfit = 0;
+        int profit = 0;
+        for(int i = 1; i < arr.length; i++) {
+            finalProfit = arr[i] - min;
+            profit = Math.max(profit, finalProfit);
+            min = Math.min(min, arr[i]);
+        }
+    }
+
     public static void main(String[] args) {
         int arr[] = {7,1,5,3,6,4};
-        approach_1(arr);
+        // approach_1(arr);
+        approach_3(arr);
     }
 }
