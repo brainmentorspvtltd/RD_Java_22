@@ -44,3 +44,89 @@ CRUD
 4. Print Bar Chart
     i/p : arr = {2,0,1,3,5,6,7}
     o/p : 
+
+5. Array is sorted or not - HW
+    i/p : arr = {1,2,3,4,5}
+    o/p : true;
+
+Two Pointer Approach
+6. Reverse an Array
+    i/p : arr = {1,2,3,4,5,6,7,8}
+    o/p : {8,7,6,5,4,3,2,1}
+
+7. Pair Sum / Two Sum (LC : 1)
+    i/p : arr = {2,1,5,6,3,7}, k = 11
+    o/p : 2,3
+    pair is 5 and 6
+
+    HW - Using Two Pointer Approach
+
+8. Remove Duplicate From Sorted Array - HW
+https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+
+9. Find the leader element
+	i/p : arr[] = {5,9,8,6,7,4}
+	o/p : 4,7,8,9
+
+10. Rotate Array by One
+	i/p : arr[]  = {3,5,1,7,5,9}
+	o/p : {5,1,7,5,9,3}
+
+11. Rotate Array By K
+Input: nums = [1,2,3,4,5,6,7], k = 3
+Output: [5,6,7,1,2,3,4]
+Explanation:
+rotate 1 steps to the right: [7,1,2,3,4,5,6]
+rotate 2 steps to the right: [6,7,1,2,3,4,5]
+rotate 3 steps to the right: [5,6,7,1,2,3,4]
+
+https://leetcode.com/problems/rotate-array/
+
+12. Addition of two array
+	i/p : arr_1 = {1,2,3,4}, arr_2 = {5,6,7,8}
+	o/p : {6,9,1,2}
+
+13. Subtraction of two array
+	i/p : arr_1 = {1,2,3,4}, arr_2 = {5,6,7,8}
+	o/p : {6,9,1,2}
+
+14. Sort 0 and 1 - HW
+	i/p : arr = {0,1,0,0,1,1,0,0,0,1,1}
+	o/p : {0,0,0,0,0,0,1,1,1,1,1}
+
+15. DNF - Dutch National Flag / Sort Colors - HW, Leetcode - 75
+	- Sort 0, 1 and 2
+     https://leetcode.com/problems/sort-colors/description/
+	i/p : arr = {0,1,1,1,0,0,2,2,1,0,1,0,2,2}
+	o/p : {0,0,0,0,0,1,1,1,1,1,2,2,2,2}
+
+16. Running Sum of 1D Array - HW - Leetcode - 1480
+	https://leetcode.com/problems/running-sum-of-1d-array/
+
+18. Odd element
+    i/p : arr = {1,1,2,2,3,3,4,5,5,6,6};
+    o/p : 4
+
+17. Missing Number
+    i/p: arr = {1,2,3,5,6}
+    o/p : 4
+    Using XOR
+
+18. Buy and Sell Stock : LC - 121
+    Input: prices = [7,1,5,3,6,4]
+    Output: 5, diff b/w 1 and 6
+    Input : prices = [3,5,8,9,2,6]
+    output : 6, diff b/w 3 and 9
+
+    https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+
+Prefix - Min, Max, Sum
+Suffix - Min, Max, Sum
+
+19. Majority element    : LC-169
+    Input: nums = [2,2,1,1,1,2,2]
+    Output: 2
+	https://leetcode.com/problems/majority-element/
+    The majority element is the element that appears more than ⌊n / 2⌋ times. You may assume that the majority element always exists in the array.
+
+    - HW - Without using extra space in O(n) time
