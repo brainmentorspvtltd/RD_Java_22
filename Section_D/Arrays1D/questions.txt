@@ -123,10 +123,55 @@ https://leetcode.com/problems/rotate-array/
 Prefix - Min, Max, Sum
 Suffix - Min, Max, Sum
 
-19. Majority element    : LC-169
+19. Rain Water Trapping : LC-42
+    Input: height = [0,1,0,2,1,0,1,3,2,1,2,1]
+    Output: 6
+
+
+20. Majority element    : LC-169
     Input: nums = [2,2,1,1,1,2,2]
     Output: 2
 	https://leetcode.com/problems/majority-element/
     The majority element is the element that appears more than ⌊n / 2⌋ times. You may assume that the majority element always exists in the array.
 
     - HW - Without using extra space in O(n) time
+
+21. Gas Station : LC - 134
+    i/p : int cost = [3,4,5,1,2], gas = [1,2,3,4,5]
+    o/p : 3
+
+22. Frequency in sorted array - HW
+    arr : {10,10,10,25,31,31,32};
+    o/p : 10 3, 25 1, 31 2, 31 1
+
+23. Arrange positive and negative numbers - HW
+    arr : [10,21,-11,-20,15,19,-30]
+    o/p : [-11,-20,-30,10,15,19]
+
+24. Numbers smaller than current number - HW
+    arr : [8,1,4,3,5];
+    o/p : [4,0,2,1,3];
+
+25. Binary Search
+    - start searching from middle of the array
+    - compare search element with middle element
+    - if search element found at mid then return otherwise
+    - we search if element is greater than the middle element
+    - then search element can be found either in left half or right half
+
+26. Find Nearest Lowest and Nearest Greater value in sorted array
+    i/p : arr[] = {12,15,20,25,40,45,50,55,58,70}, search = 55
+
+27. First and last index of an element - HW
+    - given a sorted array and a number d
+    - find first and last index of d
+
+28. Peak Element - HW : LC-162
+
+29. Find maximum sum of k consecutive elements
+    - Given an array on size N and also one integer K
+    - we have to print sum of every Subarray of size K
+    input - arr[] = {1,40,30,10,20,5}, k=3
+    output = 80
+
+
