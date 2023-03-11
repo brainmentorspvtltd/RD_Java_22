@@ -120,4 +120,27 @@ Two Pointer
 24. Find the frequency of element in sorted array - HW
 25. Peak Element : LC-162 - HW
 
+26. Binary Search
 
+27. Find nearest lowest and nearest greater value in given sorted array
+    input : arr[] = { 10, 12, 15, 17, 19, 20, 25, 27, 30, 35, 40 }, search = 29
+    output : 27, 30
+
+28. Find the first and last occurrence of an element
+    input : arr[] = {1,1,2,2,3,4,5,5,5,5,6,7}, k = 5
+    output : [6,9]
+
+29. Find maximum sum of k consecutive elements in an array
+    i/p : arr[] = {1,40,30,10,20,5}, k = 3
+    o/p : 80
+
+    TC : O(n), SC : O(1)
+
+Window Sliding Technique
+
+30. Find subarray whose sum is equals to given sum
+    i/p : arr[] = {10,20,30,40,50,60,70,80,290}, sum = 90
+    o/p : 
+
+31. NBonacii Series
+32. Count distinct element in every Window of size k
