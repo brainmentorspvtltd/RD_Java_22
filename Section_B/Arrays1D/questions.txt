@@ -28,3 +28,102 @@ https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 9. Find the leader element
 	i/p : arr[] = {5,3,8,9,7,4}
 	o/p : 4,7,9
+
+10. Addition of two array
+	i/p : arr_1 = {1,2,3,4}, arr_2 = {5,6,7,8}
+	o/p : {6,9,1,2}
+
+11. Subtraction of two array
+
+12. Rotate Array by One
+	i/p : arr[]  = {3,5,1,7,5,9}
+	o/p : {5,1,7,5,9,3}
+
+11. Rotate Array By K - HW
+    i/p : arr[] = {1,2,3,4,5,6,7}, k = 3
+    o/p : {5,6,7,1,2,3,4}
+    https://leetcode.com/problems/rotate-array/
+
+    reverse(i, j) - Two Pointer Approach = {1,2,3,4,5,6,7}
+    reverse(0, n-k-1)   - {4,3,2,1,5,6,7}
+    reverse(n-k, n-1)   - {4,3,2,1,7,6,5}
+    reverse(0, n-1)     - {5,6,7,1,2,3,4}
+
+12. Missing Number
+    i/p: arr = {1,6,5,3,2}
+    o/p : 4
+
+13. Odd element - HW
+    i/p : arr = {1,1,2,2,3,3,4,5,5,6,6};
+    o/p : 4
+
+14. Buy and Sell Stock : LC - 121
+    Input: prices = [7,2,3,8,1,4]
+    Output: 6
+
+15. Gas Station : LC-134
+    Input: gas = [1,2,3,4,5], cost = [3,4,5,1,2]
+    Output: 3
+
+16. Sort 0 and 1 - HW
+	i/p : arr = {0,1,0,0,1,1,0,0,0,1,1}
+	o/p : {0,0,0,0,0,0,1,1,1,1,1}
+
+17. DNF - Dutch National Flag / Sort Colors - HW, Leetcode - 75
+	- Sort 0, 1 and 2
+     https://leetcode.com/problems/sort-colors/description/
+	i/p : arr = {0,1,1,1,0,0,2,2,1,0,1,0,2,2}
+	o/p : {0,0,0,0,0,1,1,1,1,1,2,2,2,2}
+
+18. Running Sum of 1D Array - HW - Leetcode - 1480
+    i/p : arr[] = [1,2,3,4]
+    o/p : [1,3,6,10]
+	https://leetcode.com/problems/running-sum-of-1d-array/
+
+19. Rain Water Trapping : LC - 42
+    Input: height = [0,1,0,2,1,0,1,3,2,1,2,1]
+    Output: 6
+
+20. Majority Element : LC-169
+    Input: nums = [2,2,1,1,1,2,2]
+    Output: 2
+    The majority element is the element that appears more than ⌊n / 2⌋ times
+
+    TC : O(n), Space : O(1)
+    Using Boyer Moore Algorithm
+
+21. Frequency in sorted array - HW
+    arr : {10,10,10,25,31,31,32};
+    o/p : 10 3, 25 1, 31 2, 32 1
+
+22. Arrange positive and negative numbers - HW
+    arr : [10,21,-11,-20,15,19,-30]
+    o/p : [-11,-20,-30,10,15,19]
+
+23. Numbers smaller than current number - HW
+    arr : [8,1,4,3,5];
+    o/p : [4,0,2,1,3];
+
+24. Binary Search
+    - start searching from middle of the array
+    - compare search element with middle element
+    - if search element found at mid then return otherwise
+    - we search if element is greater than the middle element
+    - then search element can be found either in left half or right half
+
+25. Find Nearest Lowest and Nearest Greater value in sorted array
+    i/p : arr[] = {12,15,20,25,40,45,50,55,58,70}, search = 55
+
+26. First and last index of an element
+    - given a sorted array and a number d
+    - find first and last index of d
+    input : arr[] = {1,1,2,2,3,4,5,5,5,6,7}, search = 5
+    output : [6,8]
+
+27. Peak Element - HW : LC-162
+
+28. Find maximum sum of k consecutive elements
+    - Given an array on size N and also one integer K
+    - we have to print sum of every Subarray of size K
+    input - arr[] = {1,40,30,10,20,5}, k=3
+    output = 80
