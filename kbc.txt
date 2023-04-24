@@ -1,0 +1,45 @@
+2. KBC 
+
+Enter User (Name) - raMeSH kuMAR
+
+Welcome Ramesh Kumar
+
+Rules and Reg
+
+Q1. 
+a)
+b) 
+C)
+d)
+
+Enter your Answer
+a) b) c ) d)     Press l for Life Line
+i) for 50/50
+ii) Flip Question 
+
+
+Correct /Incorrect 
+
+Q2. 
+
+
+
+
+
+
+
+
+
+1. Take Input as Designation
+Manager - Bonus 50%
+SE - Bonus 30%
+
+Intern - Bonus 15%
+
+Salary
+
+
+A) UserInput 
+B) Model (Setter/getter)
+C) EmpOperations
+d) Printing
