@@ -99,8 +99,41 @@ public class LinkedListCRUD<T> {
         System.out.println("Kth element is : " + p.data);
     }
 
-    void reverseIterate() {
+    void detectCycle() {
 
+    }
+
+    void detectAndRemoveCycle() {
+        
+    }
+
+    void reverseIterate() {
+        if(start == null) {
+            System.out.println("Linked List is Empty...");
+            return;
+        }
+        if(start.next == null) {
+            System.out.println("Only one node is available...");
+            return;
+        }
+        Node<T> currentNode = start;
+        Node<T> prevNode = null;
+        while(currentNode != null) {
+            Node<T> nextNode = currentNode.next;
+            currentNode.next = prevNode;
+            prevNode = currentNode;
+            currentNode = nextNode;
+        }
+        start = prevNode;
+    }
+
+    Node<T> reverseIterateRec(Node<T> currentNode, Node<T> prevNode) {
+        if(currentNode == null) {
+            return prevNode;
+        }
+        Node<T> nextNode = currentNode.next;
+        currentNode.next = prevNode;
+        return reverseIterateRec(nextNode, currentNode);
     }
 
     void print() {
