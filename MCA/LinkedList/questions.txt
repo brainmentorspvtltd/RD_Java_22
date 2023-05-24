@@ -1,0 +1,21 @@
+Linked List Questions
+
+CRUD Operations
+- Insert at beg, mid, end
+- Delete at beg, mid, end
+- Mid Point
+- Cycle Detect
+- Kth node from end
+- Reverse Linked List
+- Merge 2 sorted linked List
+- Merge K sorted Linked Linked
+- Palindrome Linked List
+- Intersection of 2 Linked List
+- Split Linked List in alternate fashion
+
+Circular Linked List
+Doubly Linked List
+
+- Clone Doubly Linked List : LC - 138
+
+

@@ -1,0 +1,74 @@
+-----------------Recursion------------------
+- process calling itself
+
+
+Call Stack Demo
+Factorial of a number
+Types of Recursion
+ - Head Recurion
+ - Tail Recurion
+ - Linear Recurion
+Print
+5
+3
+1
+2
+4
+
+Sum of Digit
+Power of a number
+Count Zero in a digit
+
+Reverse a string
+String str = "Hello World"
+O/P : dlroW olleH
+
+Single Branch Recursion
+Multi Branch Recursion
+
+Fibonacci Series
+
+Check Array is sorted or not
+Pattern_1
+*
+**
+***
+****
+*****
+
+Pattern_2
+*****
+****
+***
+**
+*
+
+Pattern_3
+1
+2 3
+4 5 6
+7 8 9 10
+
+
+Replace Pi Value with 3.14
+i/p : "3+pi*1-5*pi+6"
+o/p : "3+3.14*1-5*3.14+6"
+
+Adjacent Stars
+i/p : abbaaba
+o/p : ab*ba*aba
+
+Check if a number is power of 2
+i/p : 16
+o/p : true
+
+Power of 3
+Power of 4
+Power of N
+
+Backtracking Questions
+
+- Well Formed Parantheses - Microsoft, Apple, Nvidia, TCS
+
+- Word Search
+

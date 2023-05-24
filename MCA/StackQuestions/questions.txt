@@ -1,0 +1,16 @@
+Stack
+LIFO - Last In First Out
+
+Examples of stack
+- call stack
+- browser history
+- Undo operation
+- Expression Evaluation
+
+Operations of Stack
+- Push
+- Pop
+- Peek
+- IsEmpty
+
+CRUD of Stack
