@@ -1,0 +1,23 @@
+DP - Dynamic Programming
+
+- DP is entirely based on Recursion
+
+Problem with Recursion
+- Overlapping subproblem
+- Sub-Structure property
+
+DP Provides two type of solution
+- Memoization - it works like cache
+- Tabulation
+
+- Use cases of DP
+    - Count ways
+    - Combination
+
+
+- Fib Series
+- Dice Count : LC - 1155
+- Climbing Stairs : LC - 70
+- Pascal Triangle : LC - 118
+- LCS - Longest Common Subsequence : LC - 1143
+
