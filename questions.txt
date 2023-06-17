@@ -1,0 +1,28 @@
+Binary Tree
+- which contains 0,1 or 2 children
+
+Tree Traversal is classified into 2 categories
+1. Breadth First / Level Order - use queue to implement this
+2. Depth First - use stack to implement this
+    - InOrder - LPR (Left Parent Right)
+    - PreOrder - PLR (Parent Left Right)
+    - PostOrder - LRP (Left Right Parent)
+
+1. Recursion
+2. Iterative
+
+Print Height of the Tree
+Count Nodes is a Binary Tree
+Max Element in a Binary Tree
+Width of a Tree - HW
+Diameter of a Tree - HW
+Print all nodes at distance k from a given node - HW
+Left View
+Right View - HW
+Top View
+Bottom View
+Boundary Traversal - HW
+Vertical Order Traversal
+Children Sum Property
+Construct Sum Tree
+Spiral Tree
